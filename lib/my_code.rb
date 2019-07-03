@@ -1,5 +1,5 @@
 # Your Code Here
-def map_to_negativize(jose_array)
+def map_to_array(jose_array)
   new = []
   i = 0
   while i < jose_array.length do
