@@ -8,3 +8,9 @@ def jose_to_array(jose_array)
   end
   return new
 end
+method_using_jose { puts "carnal" }
+ 
+# Is the same as...
+method_using_block do
+  puts "carnal"
+end
